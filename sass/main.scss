@@ -1,0 +1,49 @@
+@import 'reset';
+@import 'typography';
+
+body{
+    height: 100vh;
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: $fontMooli;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    max-width: 600px;
+
+    h1{
+        text-align: center;
+    }
+
+    #category{
+        font-size: 1.5rem;
+        text-align: center;
+        color: gray;
+    }
+
+    #advice{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #btn{
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    
+}
